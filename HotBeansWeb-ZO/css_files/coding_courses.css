@@ -1,0 +1,51 @@
+.courses{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 4em;
+}
+
+.courses > div.w3{
+    border: 5px solid;
+    width: 35%;
+    margin: auto;
+}
+
+.courses > div.codecad{
+    border: 5px solid;
+    width: 35%;
+    margin: auto;
+}
+
+.courses > div.u{
+    border: 5px solid;
+    width: 35%;
+    margin: auto;
+}
+
+.courseimg{
+    width: 30em;
+}
+
+.linktitle{
+    font-size: 4em;
+    text-decoration: underline;
+
+}
+
+.linktitle:link{
+    color: black;
+}
+
+.linktitle:visited{
+    color: purple;
+}
+
+.linktitle:hover{
+    color: dimgray;
+}
+
+.linktitle:active{
+    color: gray;
+    text-decoration: none;
+}
